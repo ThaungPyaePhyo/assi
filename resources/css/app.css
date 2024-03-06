@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#banner-carousel .own-nav {
+    padding: 0px !important;
+}
+
+#banner-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: 20px !important;
+    top: 45%;
+    background-color: #374151 !important;
+    color: white !important;
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 30px !important;
+
+}
+
+#banner-carousel .owl-nav .owl-next {
+    position: absolute;
+    right: 20px !important;
+    top: 45%;
+    background-color: #374151 !important;
+    color: white !important;
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 30px !important;
+}
+
+.ticket {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
