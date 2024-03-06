@@ -27,7 +27,7 @@
                     <x-footer.order-list title="Twitter" icon="fa-brands fa-twitter"/>
                     <x-footer.order-list title="Instagram" icon="fa-brands fa-instagram"/>
                     <x-footer.order-list title="Utube" icon="fa-brands fa-youtube"/>
-                    <x-footer.order-list title="Linkedin" icon="fa-brands fa-linkedin"/>
+                    <x-footer.order-list title="Linkedin" icon="fa-brands fa-linkedin" route="https://www.linkedin.com/in/thaung-pyae-phyo-05320b281/" target="_blank"/>
                 </x-footer.unordered-list>
             </div>
         </div>
