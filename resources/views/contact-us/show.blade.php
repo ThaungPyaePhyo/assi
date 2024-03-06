@@ -13,7 +13,7 @@
                 </ul>
             </div>
             <div>
-                <h3 class="text-xl font-semibold mb-2 text-white">Send a Message</h3>
+                <h3 class="text-xl font-semibold mb-2 ">Send a Message</h3>
                 <form action="" method="post" class="space-y-4">
                     @csrf
                     <label for="name" class="block font-semibold">Your Name</label>
@@ -35,7 +35,7 @@
                     <p class="text-red-500">{{ $message }}</p>
                     @enderror
                     <button type="submit"
-                            class="bg-indigo-500 text-white px-6 py-2 rounded hover:bg-indigo-600 transition">Send
+                            class="bg-black text-white px-6 py-2 rounded hover:bg-gray-600 transition">Send
                         Message</button>
                 </form>
             </div>

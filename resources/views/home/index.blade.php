@@ -8,7 +8,7 @@
     </div>
 
     <div class="container mx-auto text-center  my-6 xl:my-12">
-        <h1 class="ticket font-bold text-2xl xl:text-4xl py-4 text-gray-600">
+        <h1 class="ticket font-bold text-2xl xl:text-4xl py-4 text-gray-600 ">
             Get Tickets
         </h1>
         <div class="flex justify-center py-4">
@@ -16,7 +16,7 @@
                 Don’t settle for a mere TV binge, dive into a world of enchanting tales by booking a movie ticket now. Come experience the thrill and spill of the big screen!
             </p>
         </div>
-        <button class="bg-black text-white p-2 my-2 rounded-lg" type="submit">Book Ticket</button>
+        <button class="bg-black text-white p-2 my-2 px-10 rounded-lg hover:bg-gray-600" type="submit">Book Ticket</button>
     </div>
 
     <div class="container mx-auto flex justify-center my-8">
