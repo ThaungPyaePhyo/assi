@@ -22,7 +22,7 @@
     <div class="container mx-auto flex justify-center my-8">
         <div class="flex flex-wrap">
             @for($i = 1; $i<7; $i++)
-                <div class="xl:w-1/3  w-full flex flex-col p-6 hover:cursor-pointer">
+                <div class="sm:w-1/2 lg:w-1/3  w-full flex flex-col p-6 hover:cursor-pointer">
                     <div class="bg-slate-300 rounded-lg">
                         <img src="{{ asset('images/moana.jpg') }}" class="w-full h-72 rounded-lg object-center object-cover">
                         <div class="py-4 px-2 flex flex-col">

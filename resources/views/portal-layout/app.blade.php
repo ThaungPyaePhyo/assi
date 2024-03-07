@@ -18,7 +18,7 @@
         <header>
             @include('portal-layout.nav')
         </header>
-        <main class="container-2xl">
+        <main class="container-2xl mt-16">
             {{ $slot }}
         </main>
         <footer>
