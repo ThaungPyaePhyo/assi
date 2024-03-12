@@ -21,3 +21,4 @@ Route::view('/movie','movie.show')->name('movie');
 Route::view('/about-us','about-us.show')->name('about.us');
 Route::view('/contact-us','contact-us.show')->name('contact.us');
 Route::view('/select-cinema-room','movie.select-cinema-room')->name('movie.select.cinema.room');
+Route::view('/select-seats','movie.select-seats')->name('movie.select.seats');
